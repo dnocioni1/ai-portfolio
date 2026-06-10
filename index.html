@@ -4,6 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Darío Nocioni — AI Applied Portfolio</title>
+<meta name="description" content="Darío Nocioni — Digital executive applying AI to build products, automate operations, and execute strategy. 15+ years in LATAM. CEIBS Global EMBA 2024.">
+<meta property="og:title" content="Darío Nocioni — AI Applied Portfolio">
+<meta property="og:description" content="25+ real projects. 5 live products. E-commerce, automation, AI agents, and digital strategy across LATAM.">
+<meta property="og:url" content="https://ai-portfolio-dnocioni1.vercel.app">
+<meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -61,7 +66,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;height:58px;display:flex;ali
 .hero-right{display:flex;flex-direction:column;align-items:center;gap:2rem}
 .hero-photo-wrap{position:relative;width:220px;height:220px}
 .hero-photo{width:220px;height:220px;border-radius:50%;object-fit:cover;object-position:center top;border:3px solid var(--amber-border);filter:grayscale(15%)}
-.hero-photo-ring{position:absolute;inset:-10px;border-radius:50%;border:1px solid var(--amber-border);animation:spin 20s linear infinite}
+.hero-photo-ring{position:absolute;inset:-10px;border-radius:50%;border:1px solid var(--amber-border);animation:spin 40s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 .hero-photo-dot{position:absolute;top:8px;right:8px;width:10px;height:10px;background:var(--amber);border-radius:50%;box-shadow:0 0 8px var(--amber)}
 .hero-stats{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;width:100%}
@@ -197,11 +202,12 @@ footer a:hover{color:var(--amber)}
   <div class="hero-left">
     <div class="hero-eyebrow">AI Applied Portfolio · June 2026</div>
     <h1>I don't talk<br>about AI.<br><em>I build with it.</em></h1>
-    <p class="hero-sub">15+ years leading digital commerce and strategy across Latin America. Over the last 18 months, I've applied AI to build real products, automate real processes, and validate real businesses — with real data and real constraints.</p>
+    <p class="hero-sub">Digital commerce executive with 15+ years in retail, fintech, and education across LATAM. Currently applying AI to build products, automate operations, and run leaner — without a traditional technical team.</p>
     <div class="hero-actions">
       <a class="btn-primary" href="#projects">See the work</a>
       <a class="btn-secondary" href="https://www.linkedin.com/in/darionocioni/" target="_blank">LinkedIn profile</a>
     </div>
+    <p style="font-size:.78rem;color:var(--slate-dim);margin-top:1.25rem;font-family:var(--mono);letter-spacing:.03em">Open to → GM &nbsp;·&nbsp; Head of Digital &nbsp;·&nbsp; AI Product Lead &nbsp;·&nbsp; Digital Transformation</p>
     <div class="terminal">
       <div class="terminal-bar"><div class="td td-r"></div><div class="td td-y"></div><div class="td td-g"></div></div>
       <div class="terminal-line"><span class="t-prompt">dario@ai-portfolio</span>:<span style="color:#FEBC2E">~</span>$ <span class="t-cmd" id="typed"></span><span class="cursor"></span></div>
@@ -223,11 +229,32 @@ footer a:hover{color:var(--amber)}
 </div>
 </div>
 
+<!-- ABOUT STRIP -->
+<div style="background:var(--bg-card);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:2rem">
+  <div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:2rem">
+    <div>
+      <div style="font-family:var(--mono);font-size:.68rem;color:var(--amber);letter-spacing:.1em;margin-bottom:.5rem;text-transform:uppercase">Background</div>
+      <div style="font-size:.9rem;font-weight:600;color:var(--white)">15+ years · Digital Commerce</div>
+      <div style="font-size:.82rem;color:var(--slate);margin-top:.25rem">Retail · Fintech · EdTech · LATAM</div>
+    </div>
+    <div>
+      <div style="font-family:var(--mono);font-size:.68rem;color:var(--amber);letter-spacing:.1em;margin-bottom:.5rem;text-transform:uppercase">Education</div>
+      <div style="font-size:.9rem;font-weight:600;color:var(--white)">CEIBS Global EMBA 2024</div>
+      <div style="font-size:.82rem;color:var(--slate);margin-top:.25rem">Shanghai · Class of 2024</div>
+    </div>
+    <div>
+      <div style="font-family:var(--mono);font-size:.68rem;color:var(--amber);letter-spacing:.1em;margin-bottom:.5rem;text-transform:uppercase">Based in</div>
+      <div style="font-size:.9rem;font-weight:600;color:var(--white)">Santiago, Chile</div>
+      <div style="font-size:.82rem;color:var(--slate);margin-top:.25rem">Open to regional &amp; global roles</div>
+    </div>
+  </div>
+</div>
+
 <!-- PROJECTS -->
 <section class="section" id="projects" style="background:var(--bg)">
   <div class="section-inner">
     <div class="section-header reveal">
-      <div class="eyebrow">Work</div>
+      <div class="eyebrow">What I've Built</div>
       <h2 class="section-title">Real projects. Real data.<br>Real constraints.</h2>
       <p class="section-sub">Filter by domain to find what's most relevant to you.</p>
     </div>
@@ -242,6 +269,59 @@ footer a:hover{color:var(--amber)}
     </div>
 
     <div class="projects-grid">
+      <!-- ARCHIVO FENIX -->
+      <div class="project-card reveal" data-cat="automation">
+        <div class="card-top">
+          <div class="card-icon">🔥</div>
+          <div class="card-badges"><span class="badge badge-prod">✓ In production</span><span class="badge badge-cat">Automation</span></div>
+        </div>
+        <div class="card-title">Archivo Fénix — Pricing Pipeline</div>
+        <div class="card-desc">Automated pricing system for a Chilean tire retailer. Replaced a 1-hour manual process with a 5-minute reproducible, auditable pipeline.</div>
+        <div style="background:var(--amber-dim);border:1px solid var(--amber-border);border-radius:8px;padding:.6rem 1rem;font-family:var(--mono);font-size:.72rem;color:var(--amber);font-weight:600">⏱ 1 hour → 5 minutes &nbsp;·&nbsp; Client in production</div>
+        <div class="card-points">
+          <div class="card-point">2,203 SKUs from 2 distributors (Bridgestone, Neumachile)</div>
+          <div class="card-point">6-parameter pricing engine: margin, freight, VAT, ML commission, markup, discount</div>
+          <div class="card-point">Auto-email outputs ready for Mercado Libre bulk upload</div>
+          <div class="card-point">35+ iterated versions with Claude as pair-programmer</div>
+        </div>
+        <div class="card-tags"><span class="tag">Google Apps Script</span><span class="tag">Python/Pandas</span><span class="tag">MercadoLibre API</span><span class="tag">openpyxl</span></div>
+      </div>
+
+      <!-- GINSENG ECOMMERCE -->
+      <div class="project-card reveal d1" data-cat="ecommerce">
+        <div class="card-top">
+          <div class="card-icon">🌿</div>
+          <div class="card-badges"><span class="badge badge-prod">✓ Live</span><span class="badge badge-cat">E-Commerce</span></div>
+        </div>
+        <div class="card-title">KGC Ginseng — Full E-Commerce</div>
+        <div class="card-desc">Complete e-commerce build for Korea Ginseng Corporation in Chile. From HTML redesign to payment gateway — live with real inventory and real sales.</div>
+        <div style="background:var(--green-dim);border:1px solid rgba(16,185,129,.2);border-radius:8px;padding:.6rem 1rem;font-family:var(--mono);font-size:.72rem;color:#34D399;font-weight:600">✓ Live · Real sales · 180 leads · 10.7% open rate</div>
+        <div class="card-points">
+          <div class="card-point">MercadoPago Checkout Pro with test/prod toggle</div>
+          <div class="card-point">EmailJS order notifications (distributor + customer)</div>
+          <div class="card-point">Email campaign: 180 leads · 10.7% open rate</div>
+          <div class="card-point">P&L model: 3-year plan · 2.4x ROAS Meta Ads</div>
+        </div>
+        <a class="card-link" href="https://ginseng.emproquim.cl" target="_blank">ginseng.emproquim.cl</a>
+        <div class="card-tags"><span class="tag">HTML/CSS</span><span class="tag">PHP</span><span class="tag">MercadoPago API</span><span class="tag">EmailJS</span><span class="tag">Mailchimp</span><span class="tag">GTM</span></div>
+      </div>
+
+      <!-- GAIA WAVES -->
+      <div class="project-card reveal d1" data-cat="strategy">
+        <div class="card-top">
+          <div class="card-icon">🌊</div>
+          <div class="card-badges"><span class="badge badge-prod">✓ Delivered</span><span class="badge badge-cat">Strategy</span></div>
+        </div>
+        <div class="card-title">Gaia Waves — CRO & Growth Plan</div>
+        <div class="card-desc">Funnel diagnosis for a Chilean DTC children's clothing brand. AI-assisted analysis proved that scaling ads would burn cash before fixing conversion.</div>
+        <div style="background:var(--blue-dim);border:1px solid rgba(59,130,246,.2);border-radius:8px;padding:.6rem 1rem;font-family:var(--mono);font-size:.72rem;color:#60A5FA;font-weight:600">→ Prevented premature ad spend · Decision backed by real data</div>
+        <div class="card-points">
+          <div class="card-point">Conversion rate: 0.93% · Cart abandonment: 93%</div>
+          <div class="card-point">CAC (~CLP 30K) exceeded gross profit (~CLP 18K) — don't scale yet</div>
+          <div class="card-point">9-section growth plan + 54-activity Gantt + 3 weekly CRO audits</div>
+        </div>
+        <div class="card-tags"><span class="tag">Jumpseller data</span><span class="tag">SII revenue data</span><span class="tag">Funnel modeling</span><span class="tag">Excel</span></div>
+      </div>
 
       <!-- TENNIS MEMORY -->
       <div class="project-card reveal" data-cat="product">
@@ -291,6 +371,7 @@ footer a:hover{color:var(--amber)}
           <div class="card-point">Gamification: streaks, XP, Humboldt penguin mascot</div>
           <div class="card-point">Deployed via GitHub + Vercel without writing code</div>
         </div>
+        <a class="card-link" href="https://refuerza-k16u.vercel.app/" target="_blank">refuerza-k16u.vercel.app</a>
         <div class="card-tags"><span class="tag">React</span><span class="tag">Vite</span><span class="tag">Anthropic API</span><span class="tag">GitHub</span><span class="tag">Vercel</span><span class="tag">PWA</span></div>
       </div>
 
@@ -328,24 +409,6 @@ footer a:hover{color:var(--amber)}
         <div class="card-tags"><span class="tag">Lovable</span><span class="tag">Codex</span><span class="tag">GitHub</span></div>
       </div>
 
-      <!-- GINSENG ECOMMERCE -->
-      <div class="project-card reveal d1" data-cat="ecommerce">
-        <div class="card-top">
-          <div class="card-icon">🌿</div>
-          <div class="card-badges"><span class="badge badge-prod">✓ Live</span><span class="badge badge-cat">E-Commerce</span></div>
-        </div>
-        <div class="card-title">KGC Ginseng — Full E-Commerce</div>
-        <div class="card-desc">Complete e-commerce build for Korea Ginseng Corporation in Chile. From HTML redesign to payment gateway — live with real inventory and real sales.</div>
-        <div class="card-points">
-          <div class="card-point">MercadoPago Checkout Pro with test/prod toggle</div>
-          <div class="card-point">EmailJS order notifications (distributor + customer)</div>
-          <div class="card-point">Email campaign: 180 leads · 10.7% open rate</div>
-          <div class="card-point">P&L model: 3-year plan · 2.4x ROAS Meta Ads</div>
-        </div>
-        <a class="card-link" href="https://ginseng.emproquim.cl" target="_blank">ginseng.emproquim.cl</a>
-        <div class="card-tags"><span class="tag">HTML/CSS</span><span class="tag">PHP</span><span class="tag">MercadoPago API</span><span class="tag">EmailJS</span><span class="tag">Mailchimp</span><span class="tag">GTM</span></div>
-      </div>
-
       <!-- JUNGKWANJANG LANDING -->
       <div class="project-card reveal d2" data-cat="ecommerce">
         <div class="card-top">
@@ -361,23 +424,6 @@ footer a:hover{color:var(--amber)}
         </div>
         <a class="card-link" href="https://jungkwanjang.lovable.app" target="_blank">jungkwanjang.lovable.app</a>
         <div class="card-tags"><span class="tag">Lovable</span><span class="tag">Meta Ads</span><span class="tag">WhatsApp</span><span class="tag">Prompt engineering</span></div>
-      </div>
-
-      <!-- ARCHIVO FENIX -->
-      <div class="project-card reveal" data-cat="automation">
-        <div class="card-top">
-          <div class="card-icon">🔥</div>
-          <div class="card-badges"><span class="badge badge-prod">✓ In production</span><span class="badge badge-cat">Automation</span></div>
-        </div>
-        <div class="card-title">Archivo Fénix — Pricing Pipeline</div>
-        <div class="card-desc">Automated pricing system for a Chilean tire retailer. Replaced a 1-hour manual process with a 5-minute reproducible, auditable pipeline.</div>
-        <div class="card-points">
-          <div class="card-point">2,203 SKUs from 2 distributors (Bridgestone, Neumachile)</div>
-          <div class="card-point">6-parameter pricing engine: margin, freight, VAT, ML commission, markup, discount</div>
-          <div class="card-point">Auto-email outputs ready for Mercado Libre bulk upload</div>
-          <div class="card-point">35+ iterated versions with Claude as pair-programmer</div>
-        </div>
-        <div class="card-tags"><span class="tag">Google Apps Script</span><span class="tag">Python/Pandas</span><span class="tag">MercadoLibre API</span><span class="tag">openpyxl</span></div>
       </div>
 
       <!-- GASTOS FAMILIARES -->
@@ -494,22 +540,6 @@ footer a:hover{color:var(--amber)}
         <div class="card-tags"><span class="tag">AI market research</span><span class="tag">Excel modeling</span><span class="tag">GTM strategy</span><span class="tag">Consumer survey</span></div>
       </div>
 
-      <!-- GAIA WAVES -->
-      <div class="project-card reveal d1" data-cat="strategy">
-        <div class="card-top">
-          <div class="card-icon">🌊</div>
-          <div class="card-badges"><span class="badge badge-prod">✓ Delivered</span><span class="badge badge-cat">Strategy</span></div>
-        </div>
-        <div class="card-title">Gaia Waves — CRO & Growth Plan</div>
-        <div class="card-desc">Funnel diagnosis for a Chilean DTC children's clothing brand. AI-assisted analysis proved that scaling ads would burn cash before fixing conversion.</div>
-        <div class="card-points">
-          <div class="card-point">Conversion rate: 0.93% · Cart abandonment: 93%</div>
-          <div class="card-point">CAC (~CLP 30K) exceeded gross profit (~CLP 18K) — don't scale yet</div>
-          <div class="card-point">9-section growth plan + 54-activity Gantt + 3 weekly CRO audits</div>
-        </div>
-        <div class="card-tags"><span class="tag">Jumpseller data</span><span class="tag">SII revenue data</span><span class="tag">Funnel modeling</span><span class="tag">Excel</span></div>
-      </div>
-
       <!-- CRUZ VERDE -->
       <div class="project-card reveal d2" data-cat="strategy">
         <div class="card-top">
@@ -575,21 +605,7 @@ footer a:hover{color:var(--amber)}
         <div class="card-tags"><span class="tag">Node.js</span><span class="tag">docx lib</span><span class="tag">pptxgenjs</span><span class="tag">XML/EMU</span><span class="tag">Gamma MCP</span></div>
       </div>
 
-      <!-- CODEX WORKFLOWS -->
-      <div class="project-card reveal d2" data-cat="agents">
-        <div class="card-top">
-          <div class="card-icon">💻</div>
-          <div class="card-badges"><span class="badge badge-practice">◆ Practical</span><span class="badge badge-cat">Agents & MCPs</span></div>
-        </div>
-        <div class="card-title">Codex + Lovable + GitHub Workflow</div>
-        <div class="card-desc">Explored the transition from vibe coding in Lovable to repo-based development using Codex — bug fixes, UX audits, small PRs, and QA without switching to traditional dev.</div>
-        <div class="card-points">
-          <div class="card-point">Repo-first workflow: audit without changes → small PRs</div>
-          <div class="card-point">Applied to TennisMemory, TurnosAlerta, CRM repos</div>
-          <div class="card-point">ChatGPT + Lovable + Codex as a single pipeline</div>
-        </div>
-        <div class="card-tags"><span class="tag">Codex</span><span class="tag">ChatGPT Pro</span><span class="tag">Lovable</span><span class="tag">GitHub</span><span class="tag">React/TypeScript</span></div>
-      </div>
+</div>
 
     </div>
   </div>
@@ -599,7 +615,7 @@ footer a:hover{color:var(--amber)}
 <section class="section" id="skills" style="background:var(--bg-card)">
   <div class="section-inner">
     <div class="section-header reveal">
-      <div class="eyebrow">Capabilities</div>
+      <div class="eyebrow">How I Work</div>
       <h2 class="section-title">Skills I can articulate<br>because I practiced them.</h2>
       <p class="section-sub">Every skill below has at least one real project behind it.</p>
     </div>
@@ -657,7 +673,7 @@ footer a:hover{color:var(--amber)}
 <section class="section tools-section" id="tools">
   <div class="section-inner">
     <div class="section-header reveal">
-      <div class="eyebrow">Stack</div>
+      <div class="eyebrow">Tools I've Deployed</div>
       <h2 class="section-title">Tools I use,<br>not tools I mention.</h2>
       <p class="section-sub">Every item in this list has at least one real project behind it.</p>
     </div>
